@@ -17,7 +17,7 @@ Sign up for a [GitHub account](https://github.com/) and make sure you're part of
 Create a new repository using this project as a template:
 
 - Click on the green **New** button in GitHub.
-- Under **Respository Template**, choose this repo: `builtforzero/bfz-starter-project`. 
+- Under **Repository Template**, choose this repo: `builtforzero/bfz-starter-project`. 
 - Enter a custom repository name and description. 
 - Create the repository.
 
