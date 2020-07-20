@@ -64,7 +64,7 @@ Go to the `package.json` file. In the `scripts` section of the file, copy and pa
     "predeploy": "rm -rf dist && parcel build ./client/index.html --public-url ENTER_URL_HERE",
     "deploy": "gh-pages -d dist",
 
-#### **Install More Packages**
+### **Install More Packages**
 
 - **In the terminal:** type `npm install package-name`, replacing `package-name` with the package you wish to install
 - **In `client/main.js`:** require the package at the top of the file, in the format `const d3 = require('d3')`
@@ -75,7 +75,7 @@ Some helpful packages:
 - [**AWS SDK**](https://aws.amazon.com/sdk-for-node-js/): API that connects to Amazon Web Services. Use `npm install aws-sdk`.
 
 
-#### **Add Secrets**
+### **Add Secrets**
 Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
 
 - **In VSCode:** create a new file in the root directory called `.env`.
