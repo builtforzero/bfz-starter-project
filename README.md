@@ -67,7 +67,7 @@ Some helpful packages:
 
 
 #### **Add Secrets**
-Add secret environment variables (e.g. API keys) to the `.env` file and use them in your JavaScript.
+Create a file in the root directory called `.env`. This file will hold secret environment varaibles (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published.
 
 - **In the `.env` file:** add secrets using the format `API_KEY=123456789`, one line per secret.
 - **In the `client/main.js` file:** access the environment variables using the format `const apiKey = process.env.API_KEY;`
