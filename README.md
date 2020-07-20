@@ -1,5 +1,5 @@
 # BFZ Starter Project
-Starter code for BFZ projects hosted on GitHub pages. This starter project installs the following packages by default:
+Starter code for BFZ projects hosted on GitHub Pages. This starter project installs the following packages by default:
 
 - **[Express](https://expressjs.com/):** sets up a server environment for development
 - **[Parcel](https://parceljs.org/):** bundles assets for the web
@@ -76,7 +76,7 @@ Some helpful packages:
 
 
 #### **Add Secrets**
-The `dotenv` package helps us define secret environment variables (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
+Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
 
 - **In VSCode:** create a new file in the root directory called `.env`.
 - **In the `.env` file:** add secrets using the format `SECRET_NAME=123456789`, one line per secret.
