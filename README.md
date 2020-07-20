@@ -58,6 +58,8 @@ Running these commands (and the ones in step 4 below) will install several new f
 - `package-lock.json` and `node_modules`: lists dependecies in more detail; stores installed packages
 - `dist`: assets in your `client` folder that Parcel bundles for web distribution
 
+### **Add Scripts**
+
 Go to the newly-created `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2).
 
     "build-watch": "parcel watch ./client/index.html",
