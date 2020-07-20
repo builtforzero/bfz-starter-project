@@ -1,5 +1,11 @@
 # BFZ Starter Project
-Starter code for BFZ projects hosted on GitHub pages.
+Starter code for BFZ projects hosted on GitHub pages. This starter project is built in JavaScript, and installs the following packages:
+
+- **[Express](https://expressjs.com/):** sets up a server environment for development
+- **[Parcel](https://parceljs.org/):** bundles assets for the web
+- **[dotenv](https://www.npmjs.com/package/dotenv):** loads secret environment variables
+- **[gh-pages](https://www.npmjs.com/package/gh-pages):** publishes to a GitHub Pages branch
+- **[d3](https://d3js.org/):** for data visualization
 
 
 ## 1. Get software
@@ -71,7 +77,7 @@ The `dotenv` package helps us define secret environment variables (e.g. API keys
 
 - **In VSCode:** create a new file in the root directory called `.env`.
 - **In the `.env` file:** add secrets using the format `SECRET_NAME=123456789`, one line per secret.
-- **In the `client/main.js` file:** access environment variables using the format `const apiKey = process.env.SECRET_NAME;`
+- **In JavaScript:** access environment variables using the format `const apiKey = process.env.SECRET_NAME;`
 
 
 ## 4. Workflow
