@@ -54,9 +54,9 @@ Open your project folder in VSCode. Click on `Ctrl` + `Shift` + `` ` `` to open 
 
 Running these commands (and the ones in step 4 below) will install several new folders and packages to your project.
 
-- `package.json`: the project manifest; records all of the dependencies and scripts needed to run your code
+- `package.json`: the project manifest; records all of the dependencies and scripts needed to deploy your code
 - `package-lock.json` and `node_modules`: lists dependecies in more detail; stores installed packages
-- `dist`: the version of the assets in your `client` folder that the Parcel package bundles for the web; automatically updates with the `npm run dev` command
+- `dist`: assets in your `client` folder that Parcel bundles for web distribution; automatically updates with the scripts below
 
 Go to the `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2).
 
