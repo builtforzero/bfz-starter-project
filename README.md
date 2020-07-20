@@ -56,9 +56,9 @@ Running these commands (and the ones in step 4 below) will install several new f
 
 - `package.json`: the project manifest; records all of the dependencies and scripts needed to deploy your code
 - `package-lock.json` and `node_modules`: lists dependecies in more detail; stores installed packages
-- `dist`: assets in your `client` folder that Parcel bundles for web distribution; automatically updates with the scripts below
+- `dist`: assets in your `client` folder that Parcel bundles for web distribution
 
-Go to the `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2).
+Go to the newly-created `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2).
 
     "build-watch": "parcel watch ./client/index.html",
     "start-watch": "nodemon server/index.js",
