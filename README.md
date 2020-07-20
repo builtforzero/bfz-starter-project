@@ -49,8 +49,8 @@ Open your project folder in VSCode. Click on `Ctrl` + `Shift` + `` ` `` to open 
 - `npm install parcel-bundler nodemon concurrently --save-dev`
 - `npm install express --save`
 - `npm install gh-pages`
-- `npm install dotenv` (optional)
-- `npm install d3` (optional)
+- [Optional] `npm install dotenv`
+- [Optional] `npm install d3`
 
 These commands will install several new folders and packages to your project.
 
