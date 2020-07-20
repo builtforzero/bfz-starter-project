@@ -1,5 +1,5 @@
 # BFZ Starter Project
-Starter code for BFZ projects hosted on GitHub pages. This starter project is built in JavaScript, and installs the following packages:
+Starter code for BFZ projects hosted on GitHub pages. This starter project is built in JavaScript, and installs the following packages by default:
 
 - **[Express](https://expressjs.com/):** sets up a server environment for development
 - **[Parcel](https://parceljs.org/):** bundles assets for the web
