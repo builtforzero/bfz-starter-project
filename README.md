@@ -52,7 +52,11 @@ Open your project folder in VSCode. Click on `Ctrl` + `Shift` + `` ` `` to open 
 - [Optional] `npm install dotenv`
 - [Optional] `npm install d3`
 
-These commands will install several new folders and packages to your project.
+Running these commands (and the ones in step 4 below) will install several new folders and packages to your project.
+
+- `package.json`: the project manifest; records all of the dependencies and scripts needed to run your code
+- `package-lock.json` and `node_modules`: lists dependecies in more detail; stores installed packages
+- `dist`: the version of the assets in your `client` folder that the Parcel package bundles for the web; automatically updates with the `npm run dev` command
 
 Go to the `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2).
 
@@ -88,11 +92,11 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
 
 During development:
 
-- In the terminal, type `npm run dev` to start the development server
+- In the terminal, run the command `npm run dev` to start the development server
 - Go to http://localhost:3000
 - Make changes to files in the `client` folder, and the page will automatically reload on save
 
 To publish:
-- In the terminal, type `npm run predeploy`, and then `npm run deploy`
+- In the terminal, run the commands `npm run predeploy` and then `npm run deploy`
 - Commit all changes to GitHub using `git add .` , `git commit -m [message]`, and `git push origin master`
 - Visit the GitHub Pages URL to view the published project
