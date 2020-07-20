@@ -67,10 +67,11 @@ Some helpful packages:
 
 
 #### **Add Secrets**
-Create a file in the root directory called `.env`. This file will hold secret environment varaibles (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published.
+The `dotenv` package helps us define secret environment variables (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
 
-- **In the `.env` file:** add secrets using the format `API_KEY=123456789`, one line per secret.
-- **In the `client/main.js` file:** access the environment variables using the format `const apiKey = process.env.API_KEY;`
+- **In VSCode:** create a new file in the root directory called `.env`.
+- **In the `.env` file:** add secrets using the format `SECRET_NAME=123456789`, one line per secret.
+- **In the `client/main.js` file:** access environment variables using the format `const apiKey = process.env.SECRET_NAME;`
 
 
 ## 4. Workflow
