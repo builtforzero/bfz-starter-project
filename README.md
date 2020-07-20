@@ -55,7 +55,7 @@ Go to the `package.json` file. In the `scripts` section of the file, copy and pa
     "deploy": "gh-pages -d dist",
 
 
-### **Install More Packages**
+#### **Install More Packages**
 
 - **In the terminal:** type `npm install package-name`, replacing `package-name` with the package you wish to install
 - **In `client/main.js`:** require the package at the top of the file, in the format `const d3 = require('d3')`
@@ -66,7 +66,7 @@ Some helpful packages:
 - [**AWS SDK**](https://aws.amazon.com/sdk-for-node-js/): API that connects to Amazon Web Services. Use `npm install aws-sdk`.
 
 
-### **Add Secrets**
+#### **Add Secrets**
 Add secret environment variables (e.g. API keys) to the `.env` file and use them in your JavaScript.
 
 - **In the `.env` file:** add secrets using the format `API_KEY=123456789`, one line per secret.
