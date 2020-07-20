@@ -1,5 +1,5 @@
 # BFZ Starter Project
-Starter client- and server-side code for BFZ projects hosted on GitHub pages.
+Starter code for BFZ projects hosted on GitHub pages.
 
 
 ## 1. Get software
