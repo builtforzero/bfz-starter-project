@@ -105,13 +105,13 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
 
 ### **A. During Development**
 
-- In the terminal, run the command `yarn dev` to start the development server.
+- In the terminal, run the command **`yarn dev`** to start the development server.
 - Go to http://localhost:1234.
-- Make changes to files in the `client` folder, and the page will automatically reload on save.
+- Make changes to files in the **client** folder, and the page will automatically reload on save (aka "hot" reload).
 
 ### **B. To Publish**
 
-- In the terminal, run the commands `yarn predeploy` and then `yarn deploy`
+- In the terminal, run the commands **`yarn predeploy`** and then **`yarn deploy`**
 - Commit all changes to GitHub using the normal workflow: 
   - `git add .`
   - `git commit -m [message]`
