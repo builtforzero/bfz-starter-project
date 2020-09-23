@@ -61,7 +61,7 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 
     - **`package.json`** is your **project manifest**; aka a record of the dependencies and scripts needed to run your code.
     - **`yarn.lock`** and **`node_modules`** are files that store and manage your project's dependencies. *You don't need to touch these files!*
-    - **`dist`** (added after step 5 below) is a folder with assets in your `client` folder that are bundled for the web by the Parcel package. *You don't need to touch this file!*
+    - **`dist`** is a folder that is only created after the first time you deploy to GitHub pages. It contains all of the files in your `client` folder, bundled for the web by the Parcel package. *You don't need to touch this file!*
 
 2. **`yarn add parcel-bundler concurrently gh-pages --save-dev`**: Adds the following packages as a development dependency to your project:
 
