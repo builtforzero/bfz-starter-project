@@ -1,12 +1,13 @@
 # BFZ GitHub Pages Starter Project
 
-Use this starter code to set up a project that (1) uses packages and (2) deploys to GitHub pages.
+Use this starter code to set up a project that uses packages and publishes to GitHub pages.
 
-This starter project installs the following packages by default:
+1. Get software
+2. Set up the project in GitHub
+3. Set up the development environment
+4. [Optional] Add more packages or secrets to your project
+5. Use a workflow
 
-- **[Parcel](https://parceljs.org/):** bundles assets for the web
-- **[Concurrently](https://www.npmjs.com/package/concurrently):** helper package; allows you to run multiple terminal commands in one line
-- **[gh-pages](https://www.npmjs.com/package/gh-pages):** publishes to a GitHub Pages branch
 
 <br />
 
@@ -78,7 +79,7 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
 
 <br />
 
-## 3. Optional setup steps
+## 4. Add more packages or secrets to your project
 
 ### **Add more packages to your project**
 
@@ -98,7 +99,7 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
 
 <br />
 
-## 4. Workflow
+## 5. Use a workflow
 
 During development:
 
