@@ -1,11 +1,8 @@
 # BFZ Starter Project
 Starter code for BFZ projects hosted on GitHub Pages. This starter project installs the following packages by default:
 
-- **[Express](https://expressjs.com/):** sets up a server environment for development
 - **[Parcel](https://parceljs.org/):** bundles assets for the web
-- **[dotenv](https://www.npmjs.com/package/dotenv):** loads secret environment variables
 - **[gh-pages](https://www.npmjs.com/package/gh-pages):** publishes to a GitHub Pages branch
-- **[d3](https://d3js.org/):** for data visualization
 
 <br />
 
@@ -15,7 +12,8 @@ To use this starter project, first download required software:
 
 - [**Visual Studio Code**](https://code.visualstudio.com/): free text editor for desktop
 - [**Git**](https://git-scm.com/): version control software; comes with `Git Bash` command-line shell
-- [**Node.js**](https://nodejs.org/en/): server-side programming language; comes with the **Node Package Manager** (`npm`)
+- [**Node.js**](https://nodejs.org/en/): server-side programming language
+- [**Yarn**](https://classic.yarnpkg.com/en/docs/install/#windows-stable): package manager
 
 Sign up for a [GitHub account](https://github.com/) and make sure you're part of the [Built for Zero](https://github.com/builtforzero) organization.
 
@@ -46,8 +44,7 @@ Finally, go back to the repository in GitHub and set up a GitHub Pages site.
 Open your project folder in VSCode. Click on `Ctrl` + `Shift` + `` ` `` to open a new terminal. Navigate to the `bash` terminal (if you're not already there). Type these commands into the terminal, one at a time:
 
 - `npm init -y`
-- `npm install parcel-bundler nodemon concurrently --save-dev`
-- `npm install express --save`
+- `npm install parcel-bundler concurrently --save-dev`
 - `npm install gh-pages`
 - [Optional] `npm install dotenv`
 - [Optional] `npm install d3`
