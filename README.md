@@ -1,6 +1,8 @@
 # BFZ GitHub Pages Starter Project
 
-Starter code for BFZ projects hosted on GitHub Pages. This starter project installs the following packages by default:
+Use this starter code to set up a project that (1) uses packages and (2) deploys to GitHub pages.
+
+This starter project installs the following packages by default:
 
 - **[Parcel](https://parceljs.org/):** bundles assets for the web
 - **[Concurrently](https://www.npmjs.com/package/concurrently):** helper package; allows you to run multiple terminal commands in one line
@@ -45,15 +47,25 @@ Finally, go back to GitHub and set up a GitHub Pages site.
 
 Open your project folder in VSCode. Open the terminal. Type these commands into the terminal, one at a time:
 
-1. `yarn init` (initializes the yarn package manager on your project)
-2. `yarn add parcel-bundler concurrently --save-dev` (adds the Parcel and Concurrently packages to your project, and saves it as a development dependency)
-3. `yarn add gh-pages` (adds the GitHub Pages package, which allows you to publish to a GitHub Pages website)
+1. `yarn init`
+2. `yarn add parcel-bundler concurrently gh-pages --save-dev`
 
-Running these commands will install several new folders to your project:
+What are we doing here?
 
-- `package.json`: the **project manifest**; records the dependencies and scripts needed to deploy your code
-- `yarn.lock` and `node_modules`: stores and manages dependencies
-- `dist`: assets in your `client` folder that are bundled for the web (added after Step 4 below)
+1. Initializes the Yarn package manager. This adds several new folders and files to your project:
+
+    - `package.json`: the **project manifest** file; a record of the dependencies and scripts needed to run your code.
+    - `yarn.lock` and `node_modules`: store and manage your project's dependencies.
+    - `dist` (added after step 4 below): assets in your `client` folder that are bundled for the web by the Parcel package.
+
+2. Adds the following packages as a development dependency to your project:
+
+    - **[Parcel](https://parceljs.org/):** bundles assets for the web (i.e., translates your modern JS code into a version that *all* browsers can read and understand).
+    - **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
+    - **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
+
+
+
 
 ### **Add Scripts**
 
