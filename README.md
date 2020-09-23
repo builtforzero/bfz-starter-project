@@ -55,6 +55,8 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 1. **`yarn init`**
 2. **`yarn add parcel-bundler concurrently gh-pages --save-dev`**
 
+<br />
+
 **What are we doing here?**
 
 1. **`yarn init`:** Initializes the Yarn package manager. This adds several new folders and files to your project, out of which you will only need to directly change the `package.json` file.
@@ -68,6 +70,8 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
     - **[Parcel](https://parceljs.org/):** bundles assets for the web (i.e., translates your modern JS code into a version that *all* browsers can read and understand).
     - **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
     - **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
+
+<br />
 
 ### **B. Add Scripts**
 
