@@ -79,6 +79,8 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
         "deploy": "gh-pages -d dist"
      },
 
+You can run these scripts in the terminal using yarn in order to set up a development environment and publish to GitHub pages. See Step 5!
+
 <br />
 
 ## 4. [OPTIONAL] Add more packages or secrets to your project
