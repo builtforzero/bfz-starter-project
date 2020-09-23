@@ -55,9 +55,7 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 1. **`yarn init`**
 2. **`yarn add parcel-bundler concurrently gh-pages --save-dev`**
 
-<br />
-
-**What are we doing here?**
+**More Details: What are we doing here?**
 
 1. **`yarn init`:** Initializes the Yarn package manager. This adds several new folders and files to your project, out of which you will only need to directly change the `package.json` file.
 
@@ -113,6 +111,8 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
 - Go to http://localhost:1234.
 - Make changes to files in the `client` folder, and the page will automatically reload on save.
 
+<br />
+
 ### **B. To Publish**
 
 - In the terminal, run the commands `yarn predeploy` and then `yarn deploy`
@@ -121,16 +121,6 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
   - `git commit -m [message]`
   - `git push origin master`
 - Visit your GitHub Pages URL to view the published project
-
-<br />
-
-## What if I need to open an existing repository?
-If you need to work on an existing repository -- one that already has packages installed -- use these steps:
-
-- Get all software listed in **Step 1**.
-- Open the repository in Github. Clone a copy to your computer using the [instructions here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-- Open the cloned copy in VSCode.
-- Open VSCode's bash terminal. Run the command `yarn` or `yarn install`. This will install all of the dependencies and packages needed to use the project.
 
 <br />
 
