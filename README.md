@@ -26,16 +26,18 @@ Sign up for a [GitHub account](https://github.com/) and make sure you're part of
 
 ## 2. Set up the project in GitHub
 
-Log into GitHub. Create a new repository using this project as a template:
+### A. Create a new repository using this project as a template:
 
-- Click on the green **New** button in GitHub.
+- Click on the green **New** button in your GitHub account.
 - Under **Repository Template**, choose this repo: `builtforzero/bfz-starter-project`. 
 - Enter a custom repository name and description. 
 - Create the repository.
 
-Clone the new repository to a folder on your computer using the [instructions here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). Cloning saves a copy of the repository to your computer.
+### B. Clone the new repository to a folder. 
+- Use the [instructions here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Cloning saves a copy of the repository to your computer.
 
-Finally, go back to GitHub and set up a GitHub Pages site.
+### C. Set up a GitHub Pages site
 
 - Go to your repository in GitHub. Click on the **Settings** tab.
 - Scroll down to the **GitHub Pages** section.
@@ -46,12 +48,14 @@ Finally, go back to GitHub and set up a GitHub Pages site.
 
 ## 3. Set up the development environment
 
+### A. Set up your project
+
 Open your project folder in VSCode. Open the terminal. Type these commands into the terminal, one at a time:
 
 1. **`yarn init`**
 2. **`yarn add parcel-bundler concurrently gh-pages --save-dev`**
 
-### What are we doing here?
+**What are we doing here?**
 
 1. **`yarn init`:** Initializes the Yarn package manager. This adds several new folders and files to your project, out of which you will only need to directly change the `package.json` file.
 
@@ -65,7 +69,7 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
     - **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
     - **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
 
-### **Add Scripts**
+### **B. Add Scripts**
 
 Go to the newly-created `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2).
     
@@ -79,7 +83,7 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
 
 ## 4. [OPTIONAL] Add more packages or secrets to your project
 
-### **Add more packages to your project**
+### **A. Add more packages to your project**
 
 - **In the terminal:** type `yarn add package-name`, replacing `package-name` with the package you wish to install
 - **In `client/main.js`:** require the package at the top of the file, in the format `const [package variable] = require('package name')`. For example, to use the D3 package, I would add `const d3 = require('d3')` to the top of my `main.js` file. Then, I can use D3 methods like normal.
@@ -87,7 +91,7 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
 
 <br />
 
-### **Add Secrets**
+### **B. Add Secrets**
 Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
 
 - Get the **[Dotenv](https://www.npmjs.com/package/dotenv)** package by running `yarn add dotenv` in the terminal.
@@ -99,13 +103,14 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
 
 ## 5. Use a workflow
 
-During development:
+### **A. During Development**
 
 - In the terminal, run the command `yarn dev` to start the development server.
 - Go to http://localhost:1234.
 - Make changes to files in the `client` folder, and the page will automatically reload on save.
 
-To publish:
+### **B. To Publish**
+
 - In the terminal, run the commands `yarn predeploy` and then `yarn deploy`
 - Commit all changes to GitHub using the normal workflow: 
   - `git add .`
