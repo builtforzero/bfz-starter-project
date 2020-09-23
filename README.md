@@ -50,7 +50,7 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 1. `yarn init`
 2. `yarn add parcel-bundler concurrently gh-pages --save-dev`
 
-What are we doing here?
+### What are we doing here?
 
 1. Initializes the Yarn package manager. This adds several new folders and files to your project:
 
@@ -64,8 +64,7 @@ What are we doing here?
     - **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
     - **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
 
-
-
+<br />
 
 ### **Add Scripts**
 
@@ -75,14 +74,19 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
     "predeploy": "rm -rf .tmp .cache dist && parcel build ./client/index.html --public-url ENTER_URL_HERE",
     "deploy": "gh-pages -d dist",
 
-### **[Optional] Add more packages to your project**
+<br />
+
+## 3. Optional setup steps
+
+### **Add more packages to your project**
 
 - **In the terminal:** type `yarn add package-name`, replacing `package-name` with the package you wish to install
 - **In `client/main.js`:** require the package at the top of the file, in the format `const [package variable] = require('package name')`. For example, to use the D3 package, I would add `const d3 = require('d3')` to the top of my `main.js` file. Then, I can use D3 methods like normal.
 - Check the documentation of the package to see how to add it to your JS file!
 
+<br />
 
-### **[Optional] Add Secrets**
+### **Add Secrets**
 Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
 
 - Get the **[Dotenv](https://www.npmjs.com/package/dotenv)** package by running `yarn add dotenv` in the terminal.
