@@ -120,6 +120,6 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
 
 <br />
 
-## Further Reading & Resources
+## Further Reading
 
 **[Package Management Basics](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Package_management):** a nice, easy-to-follow introduction to package managers (specifically, npm)
