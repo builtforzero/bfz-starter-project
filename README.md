@@ -79,7 +79,7 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
 
 <br />
 
-## 4. Add more packages or secrets to your project
+## 4. [OPTIONAL] Add more packages or secrets to your project
 
 ### **Add more packages to your project**
 
