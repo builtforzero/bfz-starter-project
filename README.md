@@ -69,8 +69,6 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
     - **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
     - **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
 
-<br />
-
 ### **B. Add Scripts**
 
 Go to the newly-created `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2).
@@ -91,8 +89,6 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
 - **In `client/main.js`:** require the package at the top of the file, in the format `const [package variable] = require('package name')`. For example, to use the D3 package, I would add `const d3 = require('d3')` to the top of my `main.js` file. Then, I can use D3 methods like normal.
 - Check the documentation of the package to see how to add it to your JS file!
 
-<br />
-
 ### **B. Add Secrets**
 Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
 
@@ -110,8 +106,6 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
 - In the terminal, run the command `yarn dev` to start the development server.
 - Go to http://localhost:1234.
 - Make changes to files in the `client` folder, and the page will automatically reload on save.
-
-<br />
 
 ### **B. To Publish**
 
