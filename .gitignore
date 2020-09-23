@@ -38,10 +38,13 @@ typings/
 
 # Optional npm cache directory
 .npm
+cache/
 .cache
+yarn.lock
 
 # Optional eslint cache
 .eslintcache
+.eslintrc.js
 
 # Optional REPL history
 .node_repl_history
@@ -56,4 +59,7 @@ typings/
 .env
 
 # dist
-dist
+dist/
+
+# Google Sheets API credentials
+credentials.json
