@@ -59,9 +59,9 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 
 1. **`yarn init`:** Initializes the Yarn package manager. This adds several new folders and files to your project, out of which you will only need to directly change the `package.json` file.
 
-    - **`package.json`:** your **project manifest**; aka a record of the dependencies and scripts needed to run your code.
-    - **`yarn.lock`** and **`node_modules`**: files that store and manage your project's dependencies. *You don't need to touch these files!*
-    - **`dist`** (added after step 4 below): a folder with assets in your `client` folder that are bundled for the web by the Parcel package. *You don't need to touch this file!*
+    - **`package.json`** is your **project manifest**; aka a record of the dependencies and scripts needed to run your code.
+    - **`yarn.lock`** and **`node_modules`** are files that store and manage your project's dependencies. *You don't need to touch these files!*
+    - **`dist`** (added after step 4 below) is a folder with assets in your `client` folder that are bundled for the web by the Parcel package. *You don't need to touch this file!*
 
 2. **`yarn add parcel-bundler concurrently gh-pages --save-dev`**: Adds the following packages as a development dependency to your project:
 
