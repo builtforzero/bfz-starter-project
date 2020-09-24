@@ -57,7 +57,7 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 
 **More Details: What are we doing here?**
 
-1. **`yarn init`:** Initializes the Yarn package manager. This adds several new folders and files to your project, out of which you will only need to directly change the `package.json` file.
+1. **`yarn init`:** Initializes the Yarn package manager. This adds several new folders and files to your project, out of which you will only need to directly change the `package.json` file. (The terminal will prompt you with questions to help you edit that file - see example [here](https://classic.yarnpkg.com/en/docs/cli/init/).)
 
     - **`package.json`** is your **project manifest**; aka a record of the dependencies and scripts needed to run your code.
     - **`yarn.lock`** and **`node_modules`** are files that store and manage your project's dependencies. *You don't need to touch these files!*
