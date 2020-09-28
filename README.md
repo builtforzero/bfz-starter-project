@@ -97,6 +97,13 @@ Note: On a Windows machine you may need to replace the "rm" command with "rd /s"
  **To remove a package:** type **`yarn remove [package]`** in the terminal. E.g., **`yarn remove d3`.**
 
  **To install dependencies for a project that already exists**: simply type **`yarn`** in the terminal.
+ 
+ **Helpful packages to consider:**
+ 
+ - **[Papa Parse](https://yarnpkg.com/package/papaparse)**: fast CSV parser
+ - **[Lodash](https://lodash.com/)**: suite of array and object methods
+ - Add more here as you find it!
+ 
 
 ### **B. Add Secrets**
 Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
