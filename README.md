@@ -128,7 +128,7 @@ Environment variables can hold secrets (e.g. API keys) that we need available in
   - `git add .`
   - `git commit -m [message]`
   - `git push origin master`
-- Visit your GitHub Pages URL to view the published project
+- Visit your GitHub Pages URL (ending in index.html) to view the published project.
 
 <br />
 
