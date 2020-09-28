@@ -26,18 +26,18 @@ Sign up for a [GitHub account](https://github.com/) and make sure you're part of
 
 ## 2. Set up the project in GitHub
 
-### A. Create a new repository using this project as a template:
+### A. Create a new repository using this project as a template.
 
 - Click on the green **New** button in your GitHub account.
 - Under **Repository Template**, choose this repo: `builtforzero/bfz-starter-project`. 
 - Enter a custom repository name and description. 
 - Create the repository.
 
-### B. Clone the new repository to a folder. 
+### B. Clone the new repository to a folder on your desktop. 
 - Use the [instructions here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 - Cloning saves a copy of the repository to your computer.
 
-### C. Set up a GitHub Pages site
+### C. Set up a GitHub Pages site.
 
 - Go to your repository in GitHub. Click on the **Settings** tab.
 - Scroll down to the **GitHub Pages** section.
@@ -88,15 +88,14 @@ Note: On a Windows machine you may need to replace the "rm" command with "rd /s"
 
 ### **A. Add or remove packages from your project**
 
- **To add a package:** 
- 
-  - First, **search for the package** on the web or in **[Yarn's website](https://yarnpkg.com/)**.
-  - **In the terminal:** type **`yarn add [package]`**. E.g. **`yarn add d3`** will download the D3 package and add it to your project as a dependency. 
-  - **In your main JavaScript file:** require the package at the **very top** of the file. Use the format **`const [package] = require('package name')`**, e.g. **`const d3 = require('d3')`**. Then, you can use the package's methods anywhere in your JS. Check the package's **documentation** for specific installation instructions.
+  - **To add a package:**
+    - First, **search for the package** on the web or in **[Yarn's website](https://yarnpkg.com/)**.
+    - **In the terminal:** type **`yarn add [package]`**. E.g. **`yarn add d3`** will download the D3 package and add it to your project as a dependency. 
+    - **In your main JavaScript file:** require the package at the **very top** of the file. Use the format **`const [package] = require('package name')`**, e.g. **`const d3 = require('d3')`**. Then, you can use the package's methods anywhere in your JS. Check the package's **documentation** for specific installation instructions.
 
- **To remove a package:** type **`yarn remove [package]`** in the terminal. E.g., **`yarn remove d3`.**
+  - **To remove a package:** type **`yarn remove [package]`** in the terminal. E.g., **`yarn remove d3`.**
 
- **To install dependencies for a project that already exists**: simply type **`yarn`** in the terminal.
+  - **To install dependencies for a project that already exists**: simply type **`yarn`** in the terminal.
  
  **Helpful packages to consider:**
  
