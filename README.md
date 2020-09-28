@@ -91,8 +91,8 @@ Note: On a Windows machine you may need to replace the "rm" command with "rd /s"
 **To add a package:**
 
 1. Search for the package on the web or in **[Yarn's website](https://yarnpkg.com/)**.
-2. Type **`yarn add [package]`** in the terminal. E.g. to add the D3 package, type **`yarn add d3`**. This will download the package and add it to your `package.json` as a dependency.
-3. Require the package at the **very top** of your main JavaScript file in the format **`const [package] = require('package name')`**. E.g. **`const d3 = require('d3')`**. Then, you can use the package's methods anywhere in the file. Check the package's **documentation** for specific installation instructions.
+2. In the terminal: type **`yarn add [package]`**. E.g. **`yarn add d3`** will download the D3 package and add it to your project as a dependency.
+3. In your main JavaScript file: require the package at the **very top** of the file. Use the format **`const [package] = require('package name')`**, e.g. **`const d3 = require('d3')`**. Then, you can use the package's methods anywhere in your JS. Check the package's **documentation** for specific installation instructions.
 
 **To remove a package:** type **`yarn remove [package]`** in the terminal. E.g., **`yarn remove d3`.**
 
