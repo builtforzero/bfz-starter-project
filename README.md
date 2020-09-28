@@ -86,11 +86,17 @@ Note: On a Windows machine you may need to replace the "rm" command with "rd /s"
 
 ## 4. [OPTIONAL] Add more packages or secrets to your project
 
-### **A. Add more packages to your project**
+### **A. Add or remove packages from your project**
 
-- **In the terminal:** type `yarn add package-name`, replacing `package-name` with the package you wish to install
-- **In `client/main.js`:** require the package at the top of the file, in the format `const [package variable] = require('package name')`. For example, to use the D3 package, I would add `const d3 = require('d3')` to the top of my `main.js` file. Then, I can use D3 methods like normal.
-- Check the documentation of the package to see how to add it to your JS file!
+**To add a package:**
+
+1. Search for the package on the web or in **[Yarn's website](https://yarnpkg.com/)**.
+2. Type **`yarn add [package]`** in the terminal. E.g. to add the D3 package, type **`yarn add d3`**. This will download the package and add it to your `package.json` as a dependency.
+3. Require the package at the **very top** of your main JavaScript file in the format **`const [package] = require('package name')`**. E.g. **`const d3 = require('d3')`**. Then, you can use the package's methods anywhere in the file. Check the package's **documentation** for specific installation instructions.
+
+**To remove a package:** type **`yarn remove [package]`** in the terminal. E.g., **`yarn remove d3`.**
+
+**To install dependencies for a project that already exists**: simply type **`yarn`** in the terminal.
 
 ### **B. Add Secrets**
 Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
