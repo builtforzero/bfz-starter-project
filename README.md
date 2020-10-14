@@ -74,11 +74,11 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 Go to the newly-created `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2). 
 
 ```json
-"scripts": {
-    "dev": "parcel ./client/index.html --open",
-    "predeploy": "rm -rf .tmp .cache dist && parcel build ./client/index.html --public-url ENTER_URL_HERE",
-    "deploy": "gh-pages -d dist"
-},
+   "scripts": {
+      "dev": "parcel ./client/index.html --open",
+      "predeploy": "rm -rf .tmp .cache dist && parcel build ./client/index.html --public-url ENTER_URL_HERE",
+      "deploy": "gh-pages -d dist"
+   },
 ```
 
 You can run these scripts in the terminal using yarn in order to set up a development environment and publish to GitHub pages. See Step 5!
