@@ -106,12 +106,7 @@ Note: On a Windows machine you may need to replace the "rm" command with "rd /s"
  
 
 ### **B. Add Secrets**
-Environment variables can hold secrets (e.g. API keys) that we need available in our JavaScript code, but inaccessible once published. Here's how to set it up:
-
-- Get the **[Dotenv](https://www.npmjs.com/package/dotenv)** package by running **`yarn add dotenv`** in the terminal.
-- Create a new file in the root directory called **.env**. Add secrets to the file using the format **`SECRET_NAME = 123456789`**, one line per secret.
-- Add the line **`require('dotenv').config();`** to the very top of your `main.js` file.
-- Access secrets within your JS in the following format: **`const secret = process.env.SECRET_NAME;`**
+[See this article for instructions.](https://github.com/builtforzero/bfz-starter-project/wiki/Add-Secrets-to-Your-Project)
 
 <br />
 
