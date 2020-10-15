@@ -5,8 +5,9 @@ Use this starter code to set up a project that uses packages and publishes to Gi
 1. Get software
 2. Set up the project in GitHub
 3. Set up the development environment
-4. [Optional] Add more packages or secrets to your project
-5. Use a workflow
+4. Use your workflow
+
+### [Read the Wiki for more information.](https://github.com/builtforzero/bfz-starter-project/wiki)
 
 
 <br />
@@ -86,31 +87,7 @@ Note: On a Windows machine you may need to replace the "rm" command with "rd /s"
 
 <br />
 
-## 4. [OPTIONAL] Add more packages or secrets to your project
-
-### **A. Add or remove packages from your project**
-
-  - To **add a package:**
-    - **Search for the package** on the web or in **[Yarn's website](https://yarnpkg.com/)**.
-    - **In the terminal,** type **`yarn add [package]`**. E.g. **`yarn add d3`** will download the D3 package and add it to your project as a dependency. 
-    - **In your main JavaScript file,** require the package at the **very top**. Use the format **`const [package] = require('package name')`**, e.g. **`const d3 = require('d3')`**. Then, you can use the package's methods anywhere in your JS. Check the package's **documentation** for specific installation instructions.
-
-  - To **remove a package,** type **`yarn remove [package]`** in the terminal. E.g., **`yarn remove d3`.**
-
-  - To **install all dependencies** for an existing project, simply type **`yarn`** in the terminal.
- 
-  - **Helpful packages to consider:**
-    - **[Papa Parse](https://yarnpkg.com/package/papaparse)**: fast CSV parser
-    - **[Lodash](https://lodash.com/)**: suite of array and object methods
-    - Add more here as you find it!
- 
-
-### **B. Add Secrets**
-[See this article for instructions.](https://github.com/builtforzero/bfz-starter-project/wiki/Add-Secrets-to-Your-Project)
-
-<br />
-
-## 5. Use a workflow
+## 4. Use your workflow
 
 ### **A. During Development**
 
