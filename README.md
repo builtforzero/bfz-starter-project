@@ -82,6 +82,8 @@ This command adds the following packages as a development dependency to your pro
   
 </details>
 
+<br />
+
 ### **B. Add Scripts**
 
 Go to the newly-created `package.json` file. In the `scripts` section of the file, copy and paste the following scripts. Replace `ENTER_URL_HERE` with the complete GitHub Pages URL of your project (created in step 2). 
