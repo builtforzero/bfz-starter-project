@@ -51,14 +51,14 @@ Sign up for a [GitHub account](https://github.com/) and make sure you're part of
 
 ### A. Set up your project
 
-Open your project folder in VSCode. Open the terminal. Type these commands into the terminal, one at a time:
+Open your project folder in VSCode. Open the terminal. Type these commands into the terminal, one at a time. Expand for more details:
 
 <details>
     <summary><b>1. <code>yarn init -y</code></b></summary>
     
 <br />
     
-  Initializes the Yarn package manager and adds several files to your project. The **`-y`** flag (y for "yes") skips Yarn's custom setup questions and generates a `package.json` based on default settings. This is normally fine! Leave out the **`-y`** flag if you would like to [customize settings](https://classic.yarnpkg.com/en/docs/cli/init/). This command generates a `package.json` file, `yarn.lock` file, and the `node_modules` folder.
+This command initializes the Yarn package manager and adds several files to your project. The **`-y`** flag (y for "yes") skips Yarn's custom setup questions and generates a `package.json` based on default settings. This is normally fine! Leave out the **`-y`** flag if you would like to [customize settings](https://classic.yarnpkg.com/en/docs/cli/init/). This command generates a `package.json` file, `yarn.lock` file, and the `node_modules` folder.
 
 - **`package.json`** is your **project manifest**; aka a record of the dependencies and scripts needed to run your code.
 - **`yarn.lock`** and **`node_modules`** are files that store and manage your project's dependencies. *You don't need to touch these files!*
@@ -69,12 +69,11 @@ Open your project folder in VSCode. Open the terminal. Type these commands into 
 </details>
 
 <details>
-    <summary><b>2. <code>yarn add parcel-bundler concurrently gh-pages --save-dev</b></code></summary>
+<summary><b>2. <code>yarn add parcel-bundler concurrently gh-pages --save-dev</b></code></summary>
   
-  <br />
+<br />
   
-  Adds the following packages as a development dependency to your project:
-
+This command adds the following packages as a development dependency to your project:
 - **[Parcel](https://parceljs.org/):** bundles assets for the web (i.e., translates your modern JS code into a version that *all* browsers can read and understand).
 - **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
 - **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
