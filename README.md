@@ -1,6 +1,6 @@
 # BFZ GitHub Pages Starter Project
 
-This tutorial covers steps to set up a project that uses the Yarn package manager and deploys to GitHub Pages.
+This tutorial covers steps to **set up a new project** that uses the Yarn package manager and deploys to GitHub Pages.
 
 ### [For more information, read the Wiki!](https://github.com/builtforzero/bfz-starter-project/wiki)
 
