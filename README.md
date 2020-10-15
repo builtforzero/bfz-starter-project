@@ -1,6 +1,6 @@
 # BFZ GitHub Pages Starter Project
 
-Use this starter code to set up a project that uses the Yarn package manager and deploys to GitHub Pages. This tutorial covers the following steps:
+Set up a project that uses the Yarn package manager and deploys to GitHub Pages. This tutorial covers the following steps:
 
 1. Get software
 2. Set up the project in GitHub
