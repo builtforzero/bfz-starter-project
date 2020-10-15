@@ -2,7 +2,7 @@
 
 This tutorial covers steps to **set up a new coding project** that uses packages and deploys to GitHub Pages.
 
-**[For more information on what to do next, read the Wiki!](https://github.com/builtforzero/bfz-starter-project/wiki)**
+**[Read the Wiki for more information!](https://github.com/builtforzero/bfz-starter-project/wiki)**
 
 
 <br />
