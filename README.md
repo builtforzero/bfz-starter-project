@@ -1,4 +1,4 @@
-# BFZ GitHub Pages Starter Project
+# BFZ GitHub Pages Starter Project: Initial Setup
 
 This tutorial covers steps to **set up a new coding project** that uses packages and deploys to GitHub Pages.
 
