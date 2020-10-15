@@ -53,22 +53,35 @@ Sign up for a [GitHub account](https://github.com/) and make sure you're part of
 
 Open your project folder in VSCode. Open the terminal. Type these commands into the terminal, one at a time:
 
-1. **`yarn init -y`**
-2. **`yarn add parcel-bundler concurrently gh-pages --save-dev`**
+<details>
+    <summary><b>1. <code>yarn init -y</code></b></summary>
+    
+<br />
+    
+  Initializes the Yarn package manager and adds several files to your project. The **`-y`** flag (y for "yes") skips Yarn's custom setup questions and generates a `package.json` based on default settings. This is normally fine! Leave out the **`-y`** flag if you would like to [customize settings](https://classic.yarnpkg.com/en/docs/cli/init/). This command generates a `package.json` file, `yarn.lock` file, and the `node_modules` folder.
 
-**More Details: What are we doing here?**
+- **`package.json`** is your **project manifest**; aka a record of the dependencies and scripts needed to run your code.
+- **`yarn.lock`** and **`node_modules`** are files that store and manage your project's dependencies. *You don't need to touch these files!*
+- **`dist`** is a folder that is only created after the first time you deploy to GitHub pages (in step 5 below). It contains all of the files in your `client` folder, bundled for the web by the Parcel package. *You don't need to touch this file!*
+  
+  <br />
+  
+</details>
 
-1. **`yarn init -y`:** Initializes the Yarn package manager and adds several files to your project. The **`-y`** flag (y for "yes") skips Yarn's custom setup questions and generates a `package.json` based on default settings. This is normally fine! Leave out the **`-y`** flag if you would like to [customize settings](https://classic.yarnpkg.com/en/docs/cli/init/). This command generates a `package.json` file, `yarn.lock` file, and the `node_modules` folder.
+<details>
+    <summary><b>2. <code>yarn add parcel-bundler concurrently gh-pages --save-dev</b></code></summary>
+  
+  <br />
+  
+  Adds the following packages as a development dependency to your project:
 
-    - **`package.json`** is your **project manifest**; aka a record of the dependencies and scripts needed to run your code.
-    - **`yarn.lock`** and **`node_modules`** are files that store and manage your project's dependencies. *You don't need to touch these files!*
-    - **`dist`** is a folder that is only created after the first time you deploy to GitHub pages (in step 5 below). It contains all of the files in your `client` folder, bundled for the web by the Parcel package. *You don't need to touch this file!*
-
-2. **`yarn add parcel-bundler concurrently gh-pages --save-dev`**: Adds the following packages as a development dependency to your project:
-
-    - **[Parcel](https://parceljs.org/):** bundles assets for the web (i.e., translates your modern JS code into a version that *all* browsers can read and understand).
-    - **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
-    - **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
+- **[Parcel](https://parceljs.org/):** bundles assets for the web (i.e., translates your modern JS code into a version that *all* browsers can read and understand).
+- **[Concurrently](https://www.npmjs.com/package/concurrently):** a helper package that allows you to run multiple terminal commands in one line.
+- **[gh-pages](https://www.npmjs.com/package/gh-pages):** a package that can publish your project to GitHub Pages.
+  
+  <br />
+  
+</details>
 
 ### **B. Add Scripts**
 
