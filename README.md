@@ -92,7 +92,7 @@ Go to the newly-created `package.json` file. In the `scripts` section of the fil
 ```
 
 You can run these scripts in the terminal using yarn in order to set up a development environment and publish to GitHub pages. See Step 5!
-Note: On a Windows machine you may need to replace the "rm" command with "rd /s" in the "predeploy" section.
+Note: On a Windows machine you may need to replace the "rm -rf" command with "del" in the "predeploy" section.
 
 <br />
 
